@@ -10,14 +10,14 @@ const OverlayButton = () => {
     useEffect(() => {
         if (isExcluded) return;
 
-        const options = {
-            call: "+918279396078", // Call phone number
-            whatsapp: "+918279396078", // WhatsApp number
-            call_to_action: "Only Hotels", // Call to action
+        const  options = {
+            call: "+919410326904", // Call phone number
+            whatsapp: "+919410326904", // WhatsApp number
+            call_to_action: "Hotel Abline", // Call to action
             button_color: "#78874f", // Color of button
             position: "right", // Position may be 'right' or 'left'
             order: "call,whatsapp", // Order of buttons
-            pre_filled_message: "Dear Team Only Hotels Greetings We are interested in visiting Rishikesh in the coming days and would like to check your Retreats availability. Could you please share your current availability, along with the best available offers, seasonal packages, or group rates for our dates? Providing these details at your earliest convenience will help us finalize our travel plans smoothly. Looking forward to your prompt response.", // WhatsApp pre-filled message
+            pre_filled_message: "Dear Hotel Abline The Oaks  Team, Please share your current availability, best rates, seasonal packages, and group offers for an upcoming visit to Rishikesh in the coming days to help us finalize our travel plans.", // WhatsApp pre-filled message
         };
         const proto = "https:",
             host = "getbutton.io",
