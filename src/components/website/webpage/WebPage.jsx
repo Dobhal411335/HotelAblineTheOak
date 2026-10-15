@@ -1619,7 +1619,7 @@ const WebPage = ({ data }) => {
                   <img
                     src={bannerImageMobile}
                     alt={data.title}
-                    className="h-[240px] w-full object-cover md:hidden"
+                    className="h-[500px] w-full object-cover md:hidden"
                   />
                 ) : null}
                 {bannerImageDesktop ? (
