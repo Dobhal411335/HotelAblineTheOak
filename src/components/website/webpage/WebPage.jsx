@@ -554,10 +554,10 @@ const WebPage = ({ data }) => {
     return (
       <div className="min-h-screen bg-background font-geist text-gray-900">
         {/* Top Banner */}
-        <div className="relative h-[250px] md:h-[400px] w-full flex items-end pb-10 pl-6 md:pl-20">
+        <div className="relative h-[500px] md:h-[600px] w-full flex items-end pb-10 pl-6 md:pl-20">
           {designHeaderMobile ? (
             <div
-              className="absolute inset-0 bg-cover bg-center md:hidden"
+              className="absolute inset-0 bg-contain bg-no-repeat bg-center md:hidden"
               style={{ backgroundImage: `url(${designHeaderMobile})` }}
             />
           ) : null}
@@ -942,10 +942,10 @@ const WebPage = ({ data }) => {
     return (
       <div className="min-h-screen bg-background font-geist text-gray-900">
         {/* Top Banner */}
-        <div className="relative h-[250px] md:h-[400px] w-full flex items-end pb-10 pl-6 md:pl-20">
+        <div className="relative h-[500px] md:h-[600px] w-full flex items-end pb-10 pl-6 md:pl-20">
           {designHeaderMobile ? (
             <div
-              className="absolute inset-0 bg-cover bg-center md:hidden"
+              className="absolute inset-0 bg-contain bg-no-repeat bg-center md:hidden"
               style={{ backgroundImage: `url(${designHeaderMobile})` }}
             />
           ) : null}
@@ -1051,10 +1051,10 @@ const WebPage = ({ data }) => {
     return (
       <div className="min-h-screen bg-background font-geist text-gray-900">
         {/* Top Banner */}
-        <div className="relative h-[250px] md:h-[450px] w-full flex items-end pb-10 pl-6 md:pl-20">
+        <div className="relative h-[500px] md:h-[600px] w-full flex items-end pb-10 pl-6 md:pl-20">
           {designHeaderMobile ? (
             <div
-              className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
+              className="absolute inset-0 bg-contain bg-no-repeat bg-center md:hidden"
               style={{ backgroundImage: `url(${designHeaderMobile})` }}
             />
           ) : null}
@@ -1265,10 +1265,10 @@ const WebPage = ({ data }) => {
     return (
       <div className="min-h-screen bg-background font-geist text-gray-900">
         {/* Top Banner */}
-        <div className="relative h-[250px] md:h-[400px] w-full flex items-end pb-10 pl-6 md:pl-20">
+        <div className="relative h-[500px] md:h-[600px] w-full flex items-end pb-10 pl-6 md:pl-20">
           {designHeaderMobile ? (
             <div
-              className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
+              className="absolute inset-0 bg-contain bg-no-repeat bg-center md:hidden"
               style={{ backgroundImage: `url(${designHeaderMobile})` }}
             />
           ) : null}
@@ -1395,10 +1395,10 @@ const WebPage = ({ data }) => {
     return (
       <div className="min-h-screen bg-background font-body text-heading">
         {(bannerImageMobile || bannerImageDesktop) && (
-          <div className="relative h-[250px] w-full md:h-[400px]">
+          <div className="relative h-[500px] w-full md:h-[600px]">
             {bannerImageMobile ? (
               <div
-                className="absolute inset-0 bg-cover bg-center md:hidden"
+                className="absolute inset-0 bg-contain bg-no-repeat bg-center md:hidden"
                 style={{ backgroundImage: `url(${bannerImageMobile})` }}
               />
             ) : null}
@@ -1495,10 +1495,10 @@ const WebPage = ({ data }) => {
     return (
       <div className="min-h-screen bg-background font-body text-heading">
         {(bannerImageMobile || bannerImageDesktop) && (
-          <div className="relative h-[250px] w-full md:h-[500px]">
+          <div className="relative h-[250px] md:h-[600px] w-full md:h-[500px]">
             {bannerImageMobile ? (
               <div
-                className="absolute inset-0 bg-contain bg-center md:hidden"
+                className="absolute inset-0 bg-contain bg-no-repeat bg-center md:hidden"
                 style={{ backgroundImage: `url(${bannerImageMobile})` }}
               />
             ) : null}
@@ -1626,7 +1626,7 @@ const WebPage = ({ data }) => {
                   <img
                     src={bannerImageDesktop}
                     alt={data.title}
-                    className="hidden h-[500px] w-full object-cover md:block"
+                    className="hidden h-[600px] w-full object-cover md:block"
                   />
                 ) : null}
               </div>
